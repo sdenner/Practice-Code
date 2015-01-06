@@ -42,7 +42,7 @@ class Stars {                            //declare a new class called Stars
     loc = new PVector(mouseX, mouseY);                   //make the location of the stars at the mouse  
     vel = new PVector(random(-5, 5), random(-5, 5));     //make the x and y portions of the velocity any random value between -3 and 3 (this will make the stars travel in every direction out of the mouse)
     hue = random(360);                                   //(for colors) let the hue be a random value between 0 and 360
-    sat = 50;                                           //
+    sat = 60;                                           //
     bright = 100;                                        // set values for sat, bright, and opacity (for colors)
     opacity = 150;                                       //
   }
